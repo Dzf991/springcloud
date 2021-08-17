@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/springcloud-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-provider-payment/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-service-api/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-consumer-order/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-server-rureka/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-consumer-openfeign-order/pom.xml" />
+      </list>
+    </option>
+  </component>
+</project>

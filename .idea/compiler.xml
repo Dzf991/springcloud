@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloud-service-api" />
+        <module name="cloud-consumer-openfeign-order" />
+        <module name="cloud-provider-payment" />
+        <module name="cloud-server-rureka" />
+        <module name="cloud-consumer-order" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloud-consumer-openfeign-order" target="1.8" />
+      <module name="cloud-consumer-order" target="1.8" />
+      <module name="cloud-provider-payment" target="1.8" />
+      <module name="cloud-server-rureka" target="1.8" />
+      <module name="cloud-service-api" target="1.5" />
+      <module name="springcloud-parent" target="1.8" />
+      <module name="untitled" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cloud-consumer-openfeign-order" options="-parameters" />
+      <module name="cloud-consumer-order" options="-parameters" />
+      <module name="cloud-provider-payment" options="-parameters" />
+      <module name="cloud-server-rureka" options="-parameters" />
+    </option>
+  </component>
+</project>
